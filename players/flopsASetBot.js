@@ -177,7 +177,7 @@ function update(game) {
         return game.betting.raise*2.5
       }
       else {
-        return 0; 
+        return 0;
       }
     }
   }
@@ -202,7 +202,7 @@ function update(game) {
         return game.betting.raise*2.5
       }
       else {
-        return 0; 
+        return 0;
       }
     }
   }
@@ -221,7 +221,7 @@ function update(game) {
         return game.self.chips;
       }
       else {
-        return 0; 
+        return 0;
       }
     }
   }
@@ -232,4 +232,3 @@ function update(game) {
 
 return { update: update, info: info }
 }
-

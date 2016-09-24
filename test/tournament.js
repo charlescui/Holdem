@@ -24,8 +24,8 @@ exports.createTable = function (challenger, opts) {
   table.addPlayers(
     [ JsSeat.create(Wittgenstein)
     , JsSeat.create(Status3)
-    , JsSeat.create(Edi9999)
-    , JsSeat.create(SneakyCharlie)
+    // , JsSeat.create(Edi9999)
+    // , JsSeat.create(SneakyCharlie)
     , JsSeat.create(FlopsASetBot)
     , JsSeat.create(WhistleTipsBot)
     , challenger
